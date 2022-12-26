@@ -10,5 +10,27 @@
     <header id="header">
         <p id="header-text">Etch A Sketch</p>
     </header>
+    <section id="main-section">
+        <div id="controls" class="sketch-pages">
+            <button class="control-buttons" class="resetAll" onClick="document.location.reload(true)">
+                RESET
+            </button>
+            <button class="control-buttons" onclick="eraser()">
+                ERASER
+            </button>
+            <button class="control-buttons" id="blackButton" onclick="blackcolor()">
+                BLACK
+            </button>
+            <button class="control-buttons" onclick="rgbcolor()">
+                RGB
+            </button>
+            <button class="control-buttons" onclick="gridDensity()">
+                SET GRID DENSITY
+            </button>
+        </div>
+        <div id="sketch-main-page" class="sketch-pages">
+            <div id="stetch-box" class="stech-box-grid">
+            </div>
+        </div>
 </body>
 </html>
