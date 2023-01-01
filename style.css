@@ -31,3 +31,23 @@
     margin: 2rem;
     
 }
+#sketch-main-page{
+    background-color: rgb(138, 130, 128);
+    height: 713px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#stetch-box{
+    background-color: aliceblue;
+    height: 600px;
+    width: 600px;
+    margin: 3rem;
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    /* grid-template-columns: repeat(16,1fr); */
+    /* grid-template-rows: repeat(16,1fr); */
+
+}
