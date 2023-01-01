@@ -55,3 +55,25 @@
     border: 1px solid rgb(91, 86, 86);
     background-color: rgb(255, 255, 255);
 }
+.control-buttons{
+    padding: 10px 20px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .control-buttons:hover {
+    background-color: #3e8e41
+}
+  
+  .control-buttons:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
