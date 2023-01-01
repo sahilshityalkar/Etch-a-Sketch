@@ -13,3 +13,21 @@
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+#main-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#controls{
+    background-color: rgb(31, 33, 32);
+    width: 50%;
+    height: 713px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.control-buttons{
+    margin: 2rem;
+    
+}
