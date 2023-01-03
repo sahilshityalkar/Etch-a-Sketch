@@ -5,3 +5,15 @@ let btnblack = document.getElementById('blackButton')
 // div.style.height= "100px";
 // div.style.background= "red";
 // createDiv.appendChild(div)
+
+createDensityBtn.addEventListener('click',getInput)
+let input;
+
+function getInput(){
+  
+    createDiv.innerHTML= "";
+   input = prompt('enter your grid size', 16)
+   createGrid(input)
+
+
+}
