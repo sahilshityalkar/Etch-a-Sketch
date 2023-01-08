@@ -52,3 +52,16 @@ function eraser(){
         event.target.style.opacity += 5;
     }
 }
+
+function rgbcolor(){
+    let allDivs = document.querySelectorAll(".block");
+        allDivs.forEach(cell => cell.addEventListener("mouseover", changeGridColor));
+        function changeGridColor(event2) {
+            let a = Math.floor(Math.random() * 256);
+            let b = Math.floor(Math.random() * 256);
+            let c = Math.floor(Math.random() * 256);
+            event2.target.style.backgroundColor = `rgb(${a}, ${b}, ${c})`;
+            event2.target.style.opacity += 2;
+          
+            console.log(event2)
+          }
