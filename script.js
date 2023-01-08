@@ -65,3 +65,49 @@ function rgbcolor(){
           
             console.log(event2)
           }
+        }
+
+// function createInputGrid(){
+//     alert("Enter a density of grid(number is under 100)")
+//     for (let i = 0 ; i < 256 ; i++){
+//         const div = document.createElement("div")
+//         div.classList.add("block")
+//         createDiv.appendChild(div)
+//     }
+// }
+
+// function gridDensity() {
+//     createDiv.innerHTML= "";
+//     let userInput = prompt("Please enter your name:", 16);
+//     createDiv.style.setProperty(
+//         "grid-template-columns",
+//         `repeat(${userInput.value}, 2fr)`
+//       );
+//       createDiv.style.setProperty(
+//         "grid-template-rows",
+//         `repeat(${userInput.value}, 2fr)`
+//       );
+//       for (let i = 0; i < userInput.value * userInput.value; i++) {
+//         const div = document.createElement("div");
+//         div.classList.add("block");
+//         createDiv.appendChild(div);
+//       }
+// }
+
+// function gridDensity1(){
+// grid.innerHTML = "";
+// let userInput = prompt("Please enter your name:", 16);
+// grid.style.setProperty(
+//     "grid-template-columns",
+//     `repeat(${userInput.value}, 2fr)`
+//   );
+//   grid.style.setProperty(
+//     "grid-template-rows",
+//     `repeat(${userInput.value}, 2fr)`
+//   );
+//   for (let i = 0; i < userInput.value * userInput.value; i++) {
+//     const div = document.createElement("div");
+//     div.classList.add("block");
+//     grid.appendChild(div);
+//   }
+// }
