@@ -34,3 +34,12 @@ function createGrid(input){
     //         `repeat(16,2fr)`       
     //         )
 }
+
+function blackcolor(){
+    let allDivs = document.querySelectorAll(".block");
+    allDivs.forEach(cell => cell.addEventListener("mouseover", changeGridColorBlack));
+    function changeGridColorBlack(event){
+        event.target.style.backgroundColor = "black";
+        event.target.style.opacity += 0.9;
+    }
+}
