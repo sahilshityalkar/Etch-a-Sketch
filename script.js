@@ -66,15 +66,15 @@ function rgbcolor(){
             console.log(event2)
           }
         }
-
-// function createInputGrid(){
-//     alert("Enter a density of grid(number is under 100)")
-//     for (let i = 0 ; i < 256 ; i++){
-//         const div = document.createElement("div")
-//         div.classList.add("block")
-//         createDiv.appendChild(div)
-//     }
-// }
+        createInputGrid()
+function createInputGrid(){
+    // alert("Enter a density of grid(number is under 100)")
+    for (let i = 0 ; i < 256 ; i++){
+        const div = document.createElement("div")
+        div.classList.add("block")
+        createDiv.appendChild(div)
+    }
+}
 
 // function gridDensity() {
 //     createDiv.innerHTML= "";
