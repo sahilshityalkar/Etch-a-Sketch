@@ -75,7 +75,6 @@ function createInputGrid(){
         createDiv.appendChild(div)
     }
 }
-
 // function gridDensity() {
 //     createDiv.innerHTML= "";
 //     let userInput = prompt("Please enter your name:", 16);

@@ -9,9 +9,8 @@
     <title>Etch-A-Sketch</title>
 </head>
 <body>
-    <header id="header">
-        <p id="header-text">Etch A Sketch</p>
-    </header>
+    <!-- make a header for show the project name -->
+    <header>E Sketch</header>
     <section id="main-section">
         <div id="controls" class="sketch-pages">
             <button class="control-buttons" class="resetAll" onClick="document.location.reload(true)">
@@ -30,7 +29,7 @@
                 SET GRID DENSITY
             </button> -->
             <section>
-                <button class="control-buttons">8*8</button>
+                <button class="control-buttons" onclick="eightByEightDensity()">8*8</button>
                 <button class="control-buttons">16*16</button>
                 <button class="control-buttons">32*32</button>
             </section>

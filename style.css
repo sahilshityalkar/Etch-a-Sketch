@@ -2,16 +2,13 @@
     margin: 0%;
     padding: 0%;
 }
-#header{
-    display: flex;
-    width: 100%;
+header{
     height: 80px;
+    font-size: 40px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: rgb(43, 103, 84);
-    font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    background: linear-gradient(to right, #FF4136, #0074D9, #2ECC40);
 }
 #main-section{
     display: flex;
