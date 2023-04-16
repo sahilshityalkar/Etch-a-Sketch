@@ -11,32 +11,31 @@
 <body>
     <!-- make a header for show the project name -->
     <header>E Sketch</header>
-    <section id="main-section">
-        <div id="controls" class="sketch-pages">
-            <button class="control-buttons" class="resetAll" onClick="document.location.reload(true)">
-                RESET
-            </button>
-            <button class="control-buttons" onclick="eraser()">
-                ERASER
-            </button>
-            <button class="control-buttons" id="blackButton" onclick="blackcolor()">
-                BLACK
-            </button>
-            <button class="control-buttons" onclick="rgbcolor()">
-                RGB
-            </button>
-            <!-- <button class="control-buttons" onclick="gridDensity()">
-                SET GRID DENSITY
-            </button> -->
-            <section>
-                <button class="control-buttons" onclick="eightByEightDensity()">8*8</button>
-                <button class="control-buttons">16*16</button>
-                <button class="control-buttons">32*32</button>
+    <!-- create a mainHomeSection for fix in all the element -->
+    <section id="mainHomeSection">
+        <!-- make a controls buttons -->
+        <div id="controls">
+            <!-- Reset button refresh all the page -->
+            <button id="resetButton" onclick="reloadFunction()">RESET</button>
+            <!-- Eraser button remove the colour form the box -->
+            <button id="eraserButton" onclick="eraser()">ERASER</button>
+            <!-- black button is select the black colour to paint the boxs the defalut colour is black -->
+            <button id="blackButton" onclick="blackColorFunction()">BLACK</button>
+            <!-- this button is select a random rgb colour for paint the bos -->
+            <button id="rgbButton">RGB</button>
+            <!-- this section is made for select the gridDencity -->
+            <p>select the gridDencity for Sketch box</p>
+            <section id="controlButtonSection">
+                <button class="control-buttons" onclick="createGrid(8)">8*8</button>
+                <button class="control-buttons" onclick="createGrid(16)">16*16</button>
+                <button class="control-buttons" onclick="createGrid(32)">32*32</button>
             </section>
         </div>
-        <div id="sketch-main-page" class="sketch-pages">
-            <div id="stetch-box" class="stech-box-grid">
+        <div id="gridContainer">
+            <div id="container">
+
             </div>
         </div>
+    </section>
 </body>
 </html>
