@@ -21,3 +21,11 @@ function createGrid(size) {
       container.appendChild(square);
     }
   }
+
+  function reloadFunction(){
+    location.reload();
+  }
+  
+  function blackColorFunction(){
+    const allDivs = document.getElementById()
+  }
