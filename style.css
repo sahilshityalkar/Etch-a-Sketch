@@ -1,6 +1,7 @@
 *{
-    margin: 0%;
+    margin: 0;
     padding: 0%;
+    background-color: #fff2ff;
 }
 header{
     height: 80px;
@@ -10,67 +11,59 @@ header{
     justify-content: center;
     background: linear-gradient(to right, #FF4136, #0074D9, #2ECC40);
 }
-#main-section{
+#mainHomeSection{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    height: 630px;
 }
 #controls{
-    background-color: rgb(31, 33, 32);
     width: 50%;
-    height: 713px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #c593c6;
+    margin-right: 80px;
 }
-.control-buttons{
-    margin: 2rem;
-    
+p{
+  background-color: #c593c6;
 }
-#sketch-main-page{
-    background-color: rgb(138, 130, 128);
-    height: 713px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#controlButtonSection{
+  background-color: #c593c6;
 }
-#stetch-box{
-    background-color: aliceblue;
-    height: 600px;
-    width: 600px;
-    margin: 3rem;
-    /* display: flex;
-    flex-wrap: wrap; */
-    display: grid;
-    grid-template-columns: repeat(16,1fr);
-    grid-template-rows: repeat(16,1fr);
 
+#controls > button{
+  width: 160px;
+  height: 50px;
+  margin: 10px;
 }
-.block{
-    border: 1px solid rgb(91, 86, 86);
-    background-color: rgb(255, 255, 255);
+#controls > p{
+  font-size: 30px;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+#resetButton{
+  background-color: rgb(113, 189, 255);
+}
+#eraserButton{
+  background-color: aliceblue;
+}
+#blackButton{
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+#rgbButton{
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(to bottom right, #76f433, #ed775c, #7158de);
 }
 .control-buttons{
-    padding: 10px 20px;
-    font-size: 15px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: #04AA6D;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0 9px #999;
-  }
-  
-  .control-buttons:hover {
-    background-color: #3e8e41
+  width: 160px;
+  height: 30px;
+  margin: 20px;
+  background-color: rgb(255, 24, 228);
 }
-  
-  .control-buttons:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
+#gridContainer{
+  margin-top: 20px;
+}
