@@ -34,3 +34,7 @@ function createGrid(size) {
   }
   container.appendChild(grid);
 }
+
+function reloadFunction() {
+  location.reload();
+}
