@@ -38,3 +38,12 @@ function createGrid(size) {
 function reloadFunction() {
   location.reload();
 }
+
+function blackColorFunction(){
+  let allDivs = document.querySelectorAll(".allDivs");
+  allDivs.forEach(cell => cell.addEventListener("mouseover", changeGridColorclear));
+  function changeGridColorclear(event) {
+    event.target.style.backgroundColor = "black";
+    event.target.style.opacity += 5;
+}
+}
