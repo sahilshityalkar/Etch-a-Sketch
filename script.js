@@ -47,3 +47,12 @@ function blackColorFunction(){
     event.target.style.opacity += 5;
 }
 }
+
+function eraser() {
+  let allDivs = document.querySelectorAll(".allDivs");
+  allDivs.forEach(cell => cell.addEventListener("mouseover", changeGridColorclear));
+  function changeGridColorclear(event) {
+    event.target.style.backgroundColor = "rgb(255, 255, 255)";
+    event.target.style.opacity += 5;
+  }
+}
