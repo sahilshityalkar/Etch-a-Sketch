@@ -57,7 +57,7 @@ function eraser() {
   }
 }
 
-function rgbcolor() {
+function rgbcolor(){
   let allDivs = document.querySelectorAll(".allDivs");
   allDivs.forEach(cell => cell.addEventListener("mouseover", changeGridColor));
   function changeGridColor(event2) {
